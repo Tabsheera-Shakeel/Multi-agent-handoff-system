@@ -1,0 +1,11 @@
+[project]
+name = "multi-agents"
+version = "0.1.0"
+description = "A multi-agent handoff system powered by Gemini and Chainlit"
+dependencies = [
+    "python-dotenv",
+    "openai",
+    "chainlit",
+    "openai-agents>=0.1.0",
+]
+requires-python = ">=3.10"
